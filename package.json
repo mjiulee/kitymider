@@ -1,0 +1,54 @@
+{
+  "name": "js",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "build:watch": "vite build --watch --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.1",
+    "element-plus": "^2.1.2",
+    "less": "^4.1.2",
+    "mitt": "^3.0.0",
+    "vue": "^3.2.23",
+    "vue-i18n": "^9.6.1",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@vitejs/plugin-legacy": "^5.2.0",
+    "@vitejs/plugin-vue": "^1.10.2",
+    "sass": "^1.44.0",
+    "unplugin-auto-import": "^0.15.1",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^2.9.17",
+    "vite-plugin-babel": "^1.2.0",
+    "vite-plugin-commonjs": "^0.10.1",
+    "webpack-bundle-analyzer": "^4.8.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-undef": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
